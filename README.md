@@ -1,6 +1,6 @@
  # **Classe de Calculo Geral dos Prazos Entrega**
  
- Classe do Php para calcular o prazo de entrega de projetos com restrições de Feriados e Finais de Semana, horário de expediente(Entrada e saída do funcionário... *
+ Classe do Php para calcular o prazo de entrega de projetos com restrições de Feriados, Finais de Semana e com base no horário de expediente(Entrada e saída do funcionário)
  
  Chamada:
  
@@ -8,7 +8,7 @@ include('calculo_geral.php');
 
 $calculo_geral = new Calculo_Geral();
 
-$data[0] =  72; //Prazo de Horas/Niveis => 108 horas -> 4,5 ou 5 dias
+$data[0] =  48; //Prazo de Horas/Niveis => 48 horas => 2 dias
 $data[1] = '2018-03-15 13:00:00'; //Data Atual, Opcional, pega a data Atual
 $data[2] = 8; // Entrada do funcionario, Opcional, caso n seja definido é 8:00 hrs
 $data[3] = 20; //Saida do Funcionario, Opcional, caso n seja definido é 20:00 hrs
