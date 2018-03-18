@@ -1,6 +1,6 @@
- # **Calculo_Geral_Prazos Entrega**
+ # **Classe de Calculo Geral dos Prazos Entrega**
  
- * Classe do Php para calcular o prazo de entrega de projetos com restrições de Feriados e Finais de Semana, horário de expediente(Entrada e saída do funcionário... *
+ Classe do Php para calcular o prazo de entrega de projetos com restrições de Feriados e Finais de Semana, horário de expediente(Entrada e saída do funcionário... *
  
  Chamada:
  
@@ -25,7 +25,7 @@ $feriados[0] = '16/03';
 
 //$calculo_geral->feriadosAdd($feriados);
 
-echo '<br>'.$calculo_geral->Prazos_entregas($data);
+echo $calculo_geral->Prazos_entregas($data);
 
 
-#Resultado: 19/03/2018 13:00:00#
+Resultado: 19/03/2018 13:00:00
